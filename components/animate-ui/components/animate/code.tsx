@@ -37,7 +37,7 @@ function Code({ className, code, ...props }: CodeProps) {
 }
 
 type CodeHeaderProps = React.ComponentProps<'div'> & {
-  icon?: React.ElementType;
+  icon?: React.ComponentType<{ className?: string }>;
   copyButton?: boolean;
 };
 
