@@ -3,6 +3,7 @@ import { HeroWithCode } from "@/components/ui/hero-with-code";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import { Navbar } from "@/components/ui/navbar";
 import { OverviewInfinity } from "@/components/ui/overview-infinity";
+import { StockChart } from "@/components/ui/stock-chart";
 import { TelegramBot } from "@/components/ui/telegram-bot";
 import { SystemArchitectureWobble } from "@/components/ui/wobble";
 import { CircuitBoard, Database, Network, Play, TrendingUp, User } from "lucide-react";
@@ -14,6 +15,13 @@ export default function Home() {
       
       {/* Hero Section */}
       <HeroWithCode />
+
+      {/* Stock Chart Section */}
+      <section className="py-20 px-2 sm:px-4 lg:px-6">
+        <div className="container mx-auto max-w-7xl">
+          <StockChart />
+        </div>
+      </section>
 
       {/* Overview Section */}
       <section id="overview" className="py-20 px-2 sm:px-4 lg:px-6">

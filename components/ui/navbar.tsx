@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <span className="text-xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              MAS Trading System
+              SMAD Trading System
             </span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
